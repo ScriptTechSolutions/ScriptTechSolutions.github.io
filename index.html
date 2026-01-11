@@ -230,7 +230,7 @@
     
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 ScriptTech Solutions. All rights reserved.</p>
+        <p>&copy; 2025 ScriptTech Solutions. All rights reserved.</p>
         <p style="margin-top: 10px; opacity: 0.8;">Your Vision, Scripted in Tech</p>
     </footer>
     
@@ -250,4 +250,598 @@
         });
     </script>
 </body>
-</html>      
+</html>  
+      display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            height: 60px;
+            width: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .company-name {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .tagline {
+            font-size: 14px;
+            opacity: 0.9;
+            letter-spacing: 0.5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(52, 152, 219, 0.9)), 
+                        url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 60px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 16px 40px;
+            background: #2ecc71;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #27ae60;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section Styles */
+        .section-title {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 36px;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #3498db;
+            margin: 15px auto 30px;
+            border-radius: 2px;
+        }
+
+        /* About Section - Option 4 Design */
+        .about-section {
+            padding: 80px 0;
+            background: white;
+            border-radius: 15px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-icon {
+            font-size: 80px;
+            color: #3498db;
+            margin-bottom: 30px;
+        }
+
+        .mission-statement {
+            font-size: 22px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 40px;
+            font-style: italic;
+            padding: 0 20px;
+        }
+
+        .mission-box {
+            border-left: 4px solid #3498db;
+            padding-left: 25px;
+            text-align: left;
+            margin: 40px 0;
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .mission-box h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .mission-box p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            min-width: 150px;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            color: #3498db;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Services Section */
+        .services-section {
+            padding: 80px 0;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 12px;
+            padding: 35px 25px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            border-color: #3498db;
+        }
+
+        .service-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .service-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 80px 0;
+            background: white;
+            border-radius: 15px;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .contact-info h3 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .contact-details {
+            margin-top: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .contact-icon {
+            font-size: 24px;
+            color: #3498db;
+            margin-right: 15px;
+            width: 40px;
+        }
+
+        .contact-text h4 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .contact-text a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-text a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .social-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: #3498db;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+
+        .copyright {
+            opacity: 0.8;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 10px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+
+            .stats-container {
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 15px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .service-card {
+                padding: 25px 15px;
+            }
+
+            .contact-content {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo-container">
+        <img src="logo.png" alt="ScriptTech Solutions Logo" class="logo">
+        <div>
+            <div class="company-name">ScriptTech Solutions</div>
+            <div class="tagline">Your Vision, Scripted in Tech</div>
+        </div>
+    </div>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <h1>Professional Tech Solutions for Your Business</h1>
+        <p>Custom software development, web solutions, and digital innovation tailored for startups, small businesses, and individuals.</p>
+        <a href="#contact" class="cta-button">Get Started Today</a>
+    </div>
+</section>
+
+<div class="container">
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-icon">🚀</div>
+            <p class="mission-statement">
+                "At ScriptTech Solutions, we believe technology should empower, not complicate."
+            </p>
+            
+            <div class="mission-box">
+                <h3>Our Mission</h3>
+                <p>
+                    We're a dynamic freelance tech company offering a wide spectrum of digital and technical services tailored for individuals, startups, and small businesses. With a foundation in systems development and a passion for innovation, we deliver reliable, user-focused solutions that empower our clients to thrive in the digital age.
+                </p>
+            </div>
+            
+            <div class="mission-box" style="border-left-color: #2ecc71;">
+                <h3>Our Vision</h3>
+                <p>
+                    To bridge the gap between technology and your business needs, providing personalized services that enhance productivity, streamline operations, and drive sustainable growth in an increasingly digital world.
+                </p>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <span class="service-icon">🔧</span>
+                <h3>Technical Support</h3>
+                <p>Fast, efficient problem-solving for hardware and software issues with remote or on-site assistance.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">💻</span>
+                <h3>System Development</h3>
+                <p>Custom-built systems and process modeling for smarter, more efficient business operations.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">🌐</span>
+                <h3>Web Design & Development</h3>
+                <p>Clean, responsive websites that reflect your brand and drive customer engagement.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">📱</span>
+                <h3>Mobile App Development</h3>
+                <p>User-friendly Android and iOS applications tailored for your business or community needs.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">📊</span>
+                <h3>Bookkeeping Support</h3>
+                <p>Digital bookkeeping setup, training, and ongoing support for small businesses.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">🎨</span>
+                <h3>Graphic Design</h3>
+                <p>Professional logos, marketing materials, social media content, and complete branding solutions.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">💿</span>
+                <h3>Software Installation</h3>
+                <p>Complete software setup from operating systems to specialized business applications.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">⌚</span>
+                <h3>Smart Technology</h3>
+                <p>Latest smart watches and wearable technology compatible with Android & iOS devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Ready to transform your business with technology? Contact us today for a free consultation.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="mailto:scripttechsolutions@outlook.com">scripttechsolutions@outlook.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-text">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/message/NY2NI2LELWVUA1" target="_blank">Send us a message</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <h4>Social Media</h4>
+                            <a href="https://www.facebook.com/profile.php?id=61583122149760" target="_blank">Follow us on Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="mailto:scripttechsolutions@outlook.com" class="social-link">Email Us</a>
+                    <a href="https://wa.me/message/NY2NI2LELWVUA1" target="_blank" class="social-link">WhatsApp</a>
+                    <a href="https://www.facebook.com/profile.php?id=61583122149760" target="_blank" class="social-link">Facebook</a>
+                </div>
+            </div>
+            
+            <div class="contact-message">
+                <h3>Why Choose Us?</h3>
+                <div class="mission-box" style="margin-top: 20px;">
+                    <p><strong>✅ Personalized Approach:</strong> Every solution is tailored to your specific needs.</p>
+                    <p><strong>✅ Fast Response:</strong> We typically respond within 2-4 hours during business days.</p>
+                    <p><strong>✅ Affordable Pricing:</strong> Quality tech solutions that fit your budget.</p>
+                    <p><strong>✅ Ongoing Support:</strong> We're with you every step of the way, even after project completion.</p>
+                </div>
+                <p style="margin-top: 25px; font-size: 18px; color: #555;">
+                    Let's discuss how we can help your business thrive in the digital age.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">ScriptTech Solutions</div>
+        <p>Your Vision, Scripted in Tech</p>
+        <p>Professional Tech Services for the Modern Business</p>
+        <div class="copyright">
+            <p>&copy; 2025 ScriptTech Solutions. All Rights Reserved.</p>
+            <p>Website hosted on GitHub Pages</p>
+        </div>
+    </div>
+</footer>
+
